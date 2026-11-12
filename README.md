@@ -59,6 +59,10 @@ The whole design process is in [JOURNAL.md](JOURNAL.md), it took me around 39 ho
 
 The FE2.1 sits in the middle so the USB lines to every port are about the same length. Top and bottom have ground fills, inner 1 is a ground plane and inner 2 is a 3.3V plane. The power traces are 0.8 mm and there are 107 vias stitching it all together.
 
+## Firmware 
+
+Since the USB HUB uses, plug and play IC, this project requires no firmware
+
 | Back |
 | --- |
 | <img width="550" alt="back" src="images/render_back.png" /> |
