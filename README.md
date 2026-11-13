@@ -83,26 +83,26 @@ My laptop only has 2 USB ports and I'm always running out. So I made my own hub,
 
 ## Here is the full bom of LCSC parts from KiCAD 
 
-|Designator         |Footprint                                              |Quantity|Value                      |LCSC Part #|
-|-------------------|-------------------------------------------------------|--------|---------------------------|-----------|
-|C1, C15, C16       |1210                                                   |3       |100uF                      |           |
-|C10, C11, C14, C4, C6, C7, C8|0603                                                   |7       |100nF                      |           |
-|C12, C13           |0603                                                   |2       |18pF                       |           |
-|C17, C18, C19, C20, C21, C22, C23|1206                                                   |7       |47uF                       |           |
-|C2, C3, C5, C9     |0805                                                   |4       |10uF                       |           |
-|D1                 |D_SMA                                                  |1       |SMAJ5.0A                   |           |
-|D2                 |0603                                                   |1       |Power-Blue                 |           |
-|D3                 |0603                                                   |1       |Hub-Active Red             |           |
-|F1                 |1812                                                   |1       |2A hold (1812)             |           |
-|F2                 |1812                                                   |1       |1.5A hold (1812)           |           |
-|J1, J2, J3, J4     |USB_C_Receptacle_HRO_TYPE-C-31-M-12                    |4       |USB_C_Receptacle_USB2.0_16P|           |
-|J5, J6, J7, J8     |USB_A_Molex_67643_Horizontal                           |4       |USB_A                      |           |
-|Q1, Q2, Q3         |SOT-23                                                 |3       |AO3401A                    |           |
-|R1, R2             |0603                                                   |2       |5.1K                       |           |
-|R10, R11, R12, R13, R14, R15|0603                                                   |6       |56K                        |           |
-|R3, R8             |0603                                                   |2       |1K                         |           |
-|R4, R5             |0603                                                   |2       |100K                       |           |
-|R6                 |0603                                                   |1       |2.7K 1%                    |           |
-|R7, R9             |0603                                                   |2       |10K                        |           |
-|U1                 |LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL                       |1       |FE2.1                      |C39693     |
-|Y1                 |Crystal_SMD_3225-4Pin_3.2x2.5mm                        |1       |12MHz                      |           |
+|Designator         |Footprint                                              |Quantity|Value                      |LCSC Part #|Part Name                                    |Unit Price (USD)|Ext Price (USD)|Price Tier|
+|-------------------|-------------------------------------------------------|--------|---------------------------|-----------|---------------------------------------------|----------------|---------------|----------|
+|C1, C15, C16       |1210                                                   |3       |100uF                      |C49066     |Samsung CL32A107MQVNNNE (6.3V)               |0.1241          |0.3723         |2+        |
+|C10, C11, C14, C4, C6, C7, C8|0603                                                   |7       |100nF                      |C14663     |Yageo CC0603KRX7R9BB104                      |0.0025          |0.0175         |1+        |
+|C12, C13           |0603                                                   |2       |18pF                       |C1647      |Samsung CL10C180JB8NNNC                      |0.0159          |0.0318         |100+      |
+|C17, C18, C19, C20, C21, C22, C23|1206                                                   |7       |47uF                       |C96123     |Samsung CL31A476MPHNNNE (10V)                |0.0705          |0.4935         |10+       |
+|C2, C3, C5, C9     |0805                                                   |4       |10uF                       |C15850     |Samsung CL21A106KAYNNNE                      |0.0856          |0.3424         |20+       |
+|D1                 |D_SMA                                                  |1       |SMAJ5.0A                   |C113952    |MDD SMAJ5.0A                                 |0.0344          |0.0344         |20+       |
+|D2                 |0603                                                   |1       |Power-Blue                 |C72041     |Everlight 19-217/BHC-ZL1M2RY/3T              |0.0172          |0.0172         |20+       |
+|D3                 |0603                                                   |1       |Hub-Active Red             |C2286      |Hubei KENTO KT-0603R                         |0.0065          |0.0065         |100+      |
+|F1                 |1812                                                   |1       |2A hold (1812)             |C49073033  |BORN SMD1812-200/16N (PTC 16V)               |0.0272          |0.0272         |10+       |
+|F2                 |1812                                                   |1       |1.5A hold (1812)           |C46641160  |R+O SMD1812-150-16 (PTC 16V)                 |0.0634          |0.0634         |10+       |
+|J1, J2, J3, J4     |USB_C_Receptacle_HRO_TYPE-C-31-M-12                    |4       |USB_C_Receptacle_USB2.0_16P|C165948    |Korean Hroparts TYPE-C-31-M-12               |0.1750          |0.7000         |5+        |
+|J5, J6, J7, J8     |USB_A_Molex_67643_Horizontal                           |4       |USB_A                      |C564920    |Molex 676432910                              |0.9326          |3.7304         |1+        |
+|Q1, Q2, Q3         |SOT-23                                                 |3       |AO3401A                    |C15127     |AOS AO3401A                                  |0.0629          |0.1887         |10+       |
+|R1, R2             |0603                                                   |2       |5.1K                       |C23186     |UNI-ROYAL 0603WAF5101T5E                     |0.0012          |0.0024         |100+      |
+|R10, R11, R12, R13, R14, R15|0603                                                   |6       |56K                        |C23206     |UNI-ROYAL 0603WAF5602T5E                     |0.0020          |0.0120         |100+      |
+|R3, R8             |0603                                                   |2       |1K                         |C21190     |UNI-ROYAL 0603WAF1001T5E                     |0.0010          |0.0020         |100+      |
+|R4, R5             |0603                                                   |2       |100K                       |C25803     |UNI-ROYAL 0603WAF1003T5E                     |0.0015          |0.0030         |100+      |
+|R6                 |0603                                                   |1       |2.7K 1%                    |C13167     |UNI-ROYAL 0603WAF2701T5E                     |0.0010          |0.0010         |100+      |
+|R7, R9             |0603                                                   |2       |10K                        |C25804     |UNI-ROYAL 0603WAF1002T5E                     |0.0010          |0.0020         |100+      |
+|U1                 |LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL                       |1       |FE2.1                      |C39693     |Terminus FE2.1-CQFP48A                       |1.7038          |1.7038         |1+        |
+|Y1                 |Crystal_SMD_3225-4Pin_3.2x2.5mm                        |1       |12MHz                      |C70565     |YXC X322512MOB4SI (12pF load)                |0.0974          |0.0974         |5+        |
